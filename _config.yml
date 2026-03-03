@@ -1,0 +1,40 @@
+title: "K. Sriya Manasa"
+description: "B.B.A. LL.B. (Hons.) | CS Executive (Group II Cleared) | Corporate & Commercial Law"
+url: "https://yourusername.github.io"
+baseurl: ""
+
+author:
+  name: "K. Sriya Manasa"
+  email: "sriyamanasa7@gmail.com"
+  location: "Hyderabad, India"
+
+theme: minima
+
+markdown: kramdown
+highlighter: rouge
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+show_excerpts: false
+
+social_links:
+  linkedin: your-linkedin-username
+  github: your-github-username
+
+header_pages:
+  - about.md
+  - education.md
+  - experience.md
+  - publications.md
+  - achievements.md
+  - contact.md
+
+permalink: pretty
+
+timezone: Asia/Kolkata
